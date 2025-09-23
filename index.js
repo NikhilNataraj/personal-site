@@ -29,7 +29,7 @@ app.get("/", function(req, res){
 
 app.get("/work", function(req, res){
     const d1 = new Date("2022-05-16");
-    const d2 = new Date()
+    const d2 = new Date("2025-06-25");
     let months = (d2.getFullYear() - d1.getFullYear()) * 12;
     months -= d1.getMonth();
     months += d2.getMonth();
